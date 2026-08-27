@@ -1,0 +1,1774 @@
+{
+  "reference_time": "2026-08-25T12:00:00+00:00",
+  "prototype_warning": "Synthetic demonstration data only; not for clinical use.",
+  "patients": [
+    {
+      "patient_id": "SYN-001",
+      "age_years": 54.0,
+      "arrival_time": "2026-08-25T11:52:00Z",
+      "symptoms": [
+        "shortness_of_breath"
+      ],
+      "pain_score": 7,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 132,
+        "respiratory_rate_bpm": 32,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 86.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 1,
+      "scenario_tags": [
+        "critical",
+        "respiratory"
+      ]
+    },
+    {
+      "patient_id": "SYN-002",
+      "age_years": 61.0,
+      "arrival_time": "2026-08-25T11:48:00Z",
+      "symptoms": [
+        "chest_pain"
+      ],
+      "pain_score": 9,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 118,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 82,
+        "diastolic_bp_mm_hg": 50,
+        "oxygen_saturation_pct": 93.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 1,
+      "scenario_tags": [
+        "critical",
+        "chest_pain"
+      ]
+    },
+    {
+      "patient_id": "SYN-003",
+      "age_years": 39.0,
+      "arrival_time": "2026-08-25T11:55:00Z",
+      "symptoms": [
+        "trauma"
+      ],
+      "pain_score": null,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "unresponsive",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 1,
+      "scenario_tags": [
+        "critical",
+        "altered_consciousness"
+      ]
+    },
+    {
+      "patient_id": "SYN-004",
+      "age_years": 27.0,
+      "arrival_time": "2026-08-25T11:54:00Z",
+      "symptoms": [
+        "severe_bleeding",
+        "trauma"
+      ],
+      "pain_score": 8,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 126,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 96,
+        "diastolic_bp_mm_hg": 62,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 1,
+      "scenario_tags": [
+        "critical",
+        "bleeding"
+      ]
+    },
+    {
+      "patient_id": "SYN-005",
+      "age_years": 3.0,
+      "arrival_time": "2026-08-25T11:42:00Z",
+      "symptoms": [
+        "fever"
+      ],
+      "pain_score": 4,
+      "observed_distress": true,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 148,
+        "respiratory_rate_bpm": 36,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 39.4,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 2,
+      "scenario_tags": [
+        "pediatric",
+        "zero_history"
+      ]
+    },
+    {
+      "patient_id": "SYN-006",
+      "age_years": 8.0,
+      "arrival_time": "2026-08-25T11:45:00Z",
+      "symptoms": [
+        "shortness_of_breath",
+        "cough"
+      ],
+      "pain_score": 3,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 122,
+        "respiratory_rate_bpm": 34,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 93.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 2,
+      "scenario_tags": [
+        "pediatric",
+        "respiratory"
+      ]
+    },
+    {
+      "patient_id": "SYN-007",
+      "age_years": 78.0,
+      "arrival_time": "2026-08-25T11:38:00Z",
+      "symptoms": [
+        "weakness",
+        "dizziness"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 132,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 98,
+        "diastolic_bp_mm_hg": 64,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 2,
+      "scenario_tags": [
+        "geriatric",
+        "atypical_presentation"
+      ]
+    },
+    {
+      "patient_id": "SYN-008",
+      "age_years": 31.0,
+      "arrival_time": "2026-08-25T11:51:00Z",
+      "symptoms": [
+        "seizure"
+      ],
+      "pain_score": null,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 112,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "responds_to_voice",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 2,
+      "scenario_tags": [
+        "neurologic"
+      ]
+    },
+    {
+      "patient_id": "SYN-009",
+      "age_years": 46.0,
+      "arrival_time": "2026-08-25T11:25:00Z",
+      "symptoms": [
+        "chest_pain"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 98,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 124,
+        "diastolic_bp_mm_hg": 80,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "chest_pain"
+      ]
+    },
+    {
+      "patient_id": "SYN-010",
+      "age_years": 24.0,
+      "arrival_time": "2026-08-25T11:16:00Z",
+      "symptoms": [
+        "abdominal_pain",
+        "vomiting"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 105,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 38.0,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "abdominal"
+      ]
+    },
+    {
+      "patient_id": "SYN-011",
+      "age_years": 42.0,
+      "arrival_time": "2026-08-25T11:35:00Z",
+      "symptoms": [
+        "unknown",
+        "dizziness"
+      ],
+      "pain_score": null,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 94,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": null,
+        "diastolic_bp_mm_hg": null,
+        "oxygen_saturation_pct": null,
+        "temperature_c": null,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "ambiguous",
+        "zero_history",
+        "missing_vitals"
+      ]
+    },
+    {
+      "patient_id": "SYN-012",
+      "age_years": 19.0,
+      "arrival_time": "2026-08-25T11:10:00Z",
+      "symptoms": [
+        "fever",
+        "vomiting"
+      ],
+      "pain_score": 4,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 104,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 38.4,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "zero_history"
+      ]
+    },
+    {
+      "patient_id": "SYN-013",
+      "age_years": 67.0,
+      "arrival_time": "2026-08-25T11:05:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 172,
+        "diastolic_bp_mm_hg": 96,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "geriatric"
+      ]
+    },
+    {
+      "patient_id": "SYN-014",
+      "age_years": 34.0,
+      "arrival_time": "2026-08-25T10:50:00Z",
+      "symptoms": [
+        "trauma"
+      ],
+      "pain_score": 5,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 92,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "stable_trauma"
+      ]
+    },
+    {
+      "patient_id": "SYN-015",
+      "age_years": 29.0,
+      "arrival_time": "2026-08-25T10:40:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 37.5,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "respiratory"
+      ]
+    },
+    {
+      "patient_id": "SYN-016",
+      "age_years": 51.0,
+      "arrival_time": "2026-08-25T10:28:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "stable"
+      ]
+    },
+    {
+      "patient_id": "SYN-017",
+      "age_years": 73.0,
+      "arrival_time": "2026-08-25T10:15:00Z",
+      "symptoms": [
+        "dizziness"
+      ],
+      "pain_score": 1,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 88,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 118,
+        "diastolic_bp_mm_hg": 74,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "geriatric"
+      ]
+    },
+    {
+      "patient_id": "SYN-018",
+      "age_years": 22.0,
+      "arrival_time": "2026-08-25T10:00:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "minor"
+      ]
+    },
+    {
+      "patient_id": "SYN-019",
+      "age_years": 58.0,
+      "arrival_time": "2026-08-25T11:12:00Z",
+      "symptoms": [
+        "shortness_of_breath"
+      ],
+      "pain_score": 5,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 129,
+        "respiratory_rate_bpm": 29,
+        "systolic_bp_mm_hg": 101,
+        "diastolic_bp_mm_hg": 68,
+        "oxygen_saturation_pct": 91.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": {
+        "heart_rate_bpm": 94,
+        "respiratory_rate_bpm": 18,
+        "systolic_bp_mm_hg": 128,
+        "diastolic_bp_mm_hg": 80,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:38:00Z"
+      },
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 2,
+      "scenario_tags": [
+        "deteriorating"
+      ]
+    },
+    {
+      "patient_id": "SYN-020",
+      "age_years": 37.0,
+      "arrival_time": "2026-08-25T09:30:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 82,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 122,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 36.8,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "unsafe_wait"
+      ]
+    },
+    {
+      "patient_id": "SYN-021",
+      "age_years": 83.0,
+      "arrival_time": "2026-08-25T09:45:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 93,
+        "respiratory_rate_bpm": 20,
+        "systolic_bp_mm_hg": 127,
+        "diastolic_bp_mm_hg": 86,
+        "oxygen_saturation_pct": 96.0,
+        "temperature_c": 36.27685783753929,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:54:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-022",
+      "age_years": 25.0,
+      "arrival_time": "2026-08-25T10:50:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": null,
+        "respiratory_rate_bpm": 23,
+        "systolic_bp_mm_hg": null,
+        "diastolic_bp_mm_hg": null,
+        "oxygen_saturation_pct": null,
+        "temperature_c": 38.06939015292619,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:45:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated",
+        "missing_vitals"
+      ]
+    },
+    {
+      "patient_id": "SYN-023",
+      "age_years": 63.0,
+      "arrival_time": "2026-08-25T11:31:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 114,
+        "respiratory_rate_bpm": 15,
+        "systolic_bp_mm_hg": 111,
+        "diastolic_bp_mm_hg": 77,
+        "oxygen_saturation_pct": 96.0,
+        "temperature_c": 37.15379079621145,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:51:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-024",
+      "age_years": 60.0,
+      "arrival_time": "2026-08-25T09:37:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 72,
+        "respiratory_rate_bpm": 21,
+        "systolic_bp_mm_hg": 125,
+        "diastolic_bp_mm_hg": 86,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 36.64088977397498,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:55:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-025",
+      "age_years": 50.0,
+      "arrival_time": "2026-08-25T10:57:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 87,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 120,
+        "diastolic_bp_mm_hg": 60,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 37.248998851592496,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:41:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-026",
+      "age_years": 78.0,
+      "arrival_time": "2026-08-25T11:13:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 111,
+        "respiratory_rate_bpm": 15,
+        "systolic_bp_mm_hg": 141,
+        "diastolic_bp_mm_hg": 85,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 37.22580456193768,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:46:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-027",
+      "age_years": 23.0,
+      "arrival_time": "2026-08-25T10:33:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 4,
+      "observed_distress": true,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 77,
+        "respiratory_rate_bpm": 20,
+        "systolic_bp_mm_hg": 114,
+        "diastolic_bp_mm_hg": 88,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 37.61657858778353,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:43:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-028",
+      "age_years": 42.0,
+      "arrival_time": "2026-08-25T10:00:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 100,
+        "respiratory_rate_bpm": 22,
+        "systolic_bp_mm_hg": 154,
+        "diastolic_bp_mm_hg": 93,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.71273446292347,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:55:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-029",
+      "age_years": 63.0,
+      "arrival_time": "2026-08-25T11:56:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 1,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 81,
+        "respiratory_rate_bpm": 24,
+        "systolic_bp_mm_hg": 126,
+        "diastolic_bp_mm_hg": 80,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 38.25007067035262,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:56:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-030",
+      "age_years": 38.0,
+      "arrival_time": "2026-08-25T10:03:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 84,
+        "respiratory_rate_bpm": 19,
+        "systolic_bp_mm_hg": 106,
+        "diastolic_bp_mm_hg": 68,
+        "oxygen_saturation_pct": 96.0,
+        "temperature_c": 37.1144209365929,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:55:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-031",
+      "age_years": 2.0,
+      "arrival_time": "2026-08-25T10:14:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 84,
+        "respiratory_rate_bpm": 22,
+        "systolic_bp_mm_hg": 137,
+        "diastolic_bp_mm_hg": 70,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 38.08345036052002,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:45:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-032",
+      "age_years": 77.0,
+      "arrival_time": "2026-08-25T10:11:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 77,
+        "respiratory_rate_bpm": 22,
+        "systolic_bp_mm_hg": 143,
+        "diastolic_bp_mm_hg": 80,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 38.21541099280732,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:52:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-033",
+      "age_years": 21.0,
+      "arrival_time": "2026-08-25T09:44:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": null,
+        "respiratory_rate_bpm": 14,
+        "systolic_bp_mm_hg": null,
+        "diastolic_bp_mm_hg": null,
+        "oxygen_saturation_pct": null,
+        "temperature_c": 37.31384338222355,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:57:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated",
+        "missing_vitals"
+      ]
+    },
+    {
+      "patient_id": "SYN-034",
+      "age_years": 41.0,
+      "arrival_time": "2026-08-25T09:17:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 5,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 93,
+        "respiratory_rate_bpm": 21,
+        "systolic_bp_mm_hg": 150,
+        "diastolic_bp_mm_hg": 71,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 36.815009036259084,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:47:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-035",
+      "age_years": 69.0,
+      "arrival_time": "2026-08-25T10:36:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 88,
+        "respiratory_rate_bpm": 25,
+        "systolic_bp_mm_hg": 153,
+        "diastolic_bp_mm_hg": 85,
+        "oxygen_saturation_pct": 96.0,
+        "temperature_c": 36.6564719480521,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:41:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-036",
+      "age_years": 82.0,
+      "arrival_time": "2026-08-25T11:53:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 1,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 72,
+        "respiratory_rate_bpm": 19,
+        "systolic_bp_mm_hg": 154,
+        "diastolic_bp_mm_hg": 68,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 36.543198946866376,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:50:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-037",
+      "age_years": 28.0,
+      "arrival_time": "2026-08-25T10:40:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 1,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 89,
+        "respiratory_rate_bpm": 19,
+        "systolic_bp_mm_hg": 108,
+        "diastolic_bp_mm_hg": 70,
+        "oxygen_saturation_pct": 95.0,
+        "temperature_c": 37.06605499164159,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:50:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-038",
+      "age_years": 60.0,
+      "arrival_time": "2026-08-25T10:42:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 81,
+        "respiratory_rate_bpm": 16,
+        "systolic_bp_mm_hg": 116,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 36.87265234113912,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:45:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-039",
+      "age_years": 81.0,
+      "arrival_time": "2026-08-25T10:00:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 99,
+        "respiratory_rate_bpm": 15,
+        "systolic_bp_mm_hg": 135,
+        "diastolic_bp_mm_hg": 66,
+        "oxygen_saturation_pct": 95.0,
+        "temperature_c": 37.77844775370601,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:58:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-040",
+      "age_years": 53.0,
+      "arrival_time": "2026-08-25T11:24:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 113,
+        "respiratory_rate_bpm": 24,
+        "systolic_bp_mm_hg": 145,
+        "diastolic_bp_mm_hg": 79,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 38.00984437213804,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:41:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-041",
+      "age_years": 51.0,
+      "arrival_time": "2026-08-25T09:21:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 104,
+        "respiratory_rate_bpm": 23,
+        "systolic_bp_mm_hg": 145,
+        "diastolic_bp_mm_hg": 89,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.88262016814243,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:51:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-042",
+      "age_years": 83.0,
+      "arrival_time": "2026-08-25T10:41:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 4,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 96,
+        "respiratory_rate_bpm": 19,
+        "systolic_bp_mm_hg": 113,
+        "diastolic_bp_mm_hg": 68,
+        "oxygen_saturation_pct": 95.0,
+        "temperature_c": 36.64523167609467,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:42:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-043",
+      "age_years": 64.0,
+      "arrival_time": "2026-08-25T11:11:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 102,
+        "respiratory_rate_bpm": 22,
+        "systolic_bp_mm_hg": 111,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 36.31630196904825,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:51:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-044",
+      "age_years": 26.0,
+      "arrival_time": "2026-08-25T09:44:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": null,
+        "respiratory_rate_bpm": 17,
+        "systolic_bp_mm_hg": null,
+        "diastolic_bp_mm_hg": null,
+        "oxygen_saturation_pct": null,
+        "temperature_c": 37.42876090345559,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:56:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated",
+        "missing_vitals"
+      ]
+    },
+    {
+      "patient_id": "SYN-045",
+      "age_years": 49.0,
+      "arrival_time": "2026-08-25T09:12:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 6,
+      "observed_distress": true,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 72,
+        "respiratory_rate_bpm": 20,
+        "systolic_bp_mm_hg": 128,
+        "diastolic_bp_mm_hg": 79,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 37.58139149847423,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:50:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-046",
+      "age_years": 64.0,
+      "arrival_time": "2026-08-25T11:43:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 89,
+        "respiratory_rate_bpm": 24,
+        "systolic_bp_mm_hg": 107,
+        "diastolic_bp_mm_hg": 89,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 37.91770518973485,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:57:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-047",
+      "age_years": 30.0,
+      "arrival_time": "2026-08-25T09:10:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 2,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 81,
+        "respiratory_rate_bpm": 25,
+        "systolic_bp_mm_hg": 117,
+        "diastolic_bp_mm_hg": 64,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 37.55957788071719,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:44:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-048",
+      "age_years": 69.0,
+      "arrival_time": "2026-08-25T09:46:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 1,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 99,
+        "respiratory_rate_bpm": 23,
+        "systolic_bp_mm_hg": 108,
+        "diastolic_bp_mm_hg": 78,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 37.63898411582561,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:48:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-049",
+      "age_years": 57.0,
+      "arrival_time": "2026-08-25T10:46:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 4,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 96,
+        "respiratory_rate_bpm": 14,
+        "systolic_bp_mm_hg": 132,
+        "diastolic_bp_mm_hg": 65,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 37.222622493501184,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:43:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-050",
+      "age_years": 22.0,
+      "arrival_time": "2026-08-25T09:50:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 5,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 87,
+        "respiratory_rate_bpm": 22,
+        "systolic_bp_mm_hg": 145,
+        "diastolic_bp_mm_hg": 92,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.896617989370675,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:53:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-051",
+      "age_years": 75.0,
+      "arrival_time": "2026-08-25T10:02:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 7,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 95,
+        "respiratory_rate_bpm": 18,
+        "systolic_bp_mm_hg": 117,
+        "diastolic_bp_mm_hg": 62,
+        "oxygen_saturation_pct": 95.0,
+        "temperature_c": 36.437568630949336,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:43:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-052",
+      "age_years": 66.0,
+      "arrival_time": "2026-08-25T09:31:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 113,
+        "respiratory_rate_bpm": 14,
+        "systolic_bp_mm_hg": 152,
+        "diastolic_bp_mm_hg": 61,
+        "oxygen_saturation_pct": 96.0,
+        "temperature_c": 36.60396168519485,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:44:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-053",
+      "age_years": 69.0,
+      "arrival_time": "2026-08-25T11:35:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 99,
+        "respiratory_rate_bpm": 15,
+        "systolic_bp_mm_hg": 109,
+        "diastolic_bp_mm_hg": 74,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 38.00958598176771,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:44:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-054",
+      "age_years": 78.0,
+      "arrival_time": "2026-08-25T09:13:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 7,
+      "observed_distress": true,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 74,
+        "respiratory_rate_bpm": 14,
+        "systolic_bp_mm_hg": 149,
+        "diastolic_bp_mm_hg": 65,
+        "oxygen_saturation_pct": 97.0,
+        "temperature_c": 37.91692756750648,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:47:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 3,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-055",
+      "age_years": 41.0,
+      "arrival_time": "2026-08-25T09:37:00Z",
+      "symptoms": [
+        "vomiting"
+      ],
+      "pain_score": 5,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": null,
+        "respiratory_rate_bpm": 21,
+        "systolic_bp_mm_hg": null,
+        "diastolic_bp_mm_hg": null,
+        "oxygen_saturation_pct": null,
+        "temperature_c": 37.97518670625223,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:46:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated",
+        "missing_vitals"
+      ]
+    },
+    {
+      "patient_id": "SYN-056",
+      "age_years": 73.0,
+      "arrival_time": "2026-08-25T09:46:00Z",
+      "symptoms": [
+        "abdominal_pain"
+      ],
+      "pain_score": 4,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 72,
+        "respiratory_rate_bpm": 14,
+        "systolic_bp_mm_hg": 135,
+        "diastolic_bp_mm_hg": 72,
+        "oxygen_saturation_pct": 98.0,
+        "temperature_c": 37.50463150482266,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:45:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-057",
+      "age_years": 76.0,
+      "arrival_time": "2026-08-25T10:09:00Z",
+      "symptoms": [
+        "minor_injury"
+      ],
+      "pain_score": 1,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 113,
+        "respiratory_rate_bpm": 24,
+        "systolic_bp_mm_hg": 141,
+        "diastolic_bp_mm_hg": 69,
+        "oxygen_saturation_pct": 99.0,
+        "temperature_c": 36.79831052546329,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:48:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-058",
+      "age_years": 26.0,
+      "arrival_time": "2026-08-25T09:31:00Z",
+      "symptoms": [
+        "cough"
+      ],
+      "pain_score": 6,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 78,
+        "respiratory_rate_bpm": 23,
+        "systolic_bp_mm_hg": 131,
+        "diastolic_bp_mm_hg": 92,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.839306625891915,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:42:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-059",
+      "age_years": 21.0,
+      "arrival_time": "2026-08-25T11:28:00Z",
+      "symptoms": [
+        "rash"
+      ],
+      "pain_score": 5,
+      "observed_distress": false,
+      "has_prior_record": false,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 91,
+        "respiratory_rate_bpm": 23,
+        "systolic_bp_mm_hg": 129,
+        "diastolic_bp_mm_hg": 65,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.41017706394619,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:49:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 5,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    },
+    {
+      "patient_id": "SYN-060",
+      "age_years": 76.0,
+      "arrival_time": "2026-08-25T09:24:00Z",
+      "symptoms": [
+        "headache"
+      ],
+      "pain_score": 3,
+      "observed_distress": false,
+      "has_prior_record": true,
+      "pregnancy": null,
+      "vitals": {
+        "heart_rate_bpm": 106,
+        "respiratory_rate_bpm": 25,
+        "systolic_bp_mm_hg": 152,
+        "diastolic_bp_mm_hg": 79,
+        "oxygen_saturation_pct": 94.0,
+        "temperature_c": 36.532602096469475,
+        "consciousness": "alert",
+        "recorded_at": "2026-08-25T11:57:00Z"
+      },
+      "previous_vitals": null,
+      "last_clinical_review_at": null,
+      "status": "waiting",
+      "expected_acuity": 4,
+      "scenario_tags": [
+        "surge_generated"
+      ]
+    }
+  ]
+}

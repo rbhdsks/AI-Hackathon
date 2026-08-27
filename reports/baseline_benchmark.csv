@@ -1,0 +1,13 @@
+scenario,strategy,display_name,description,mean_additional_wait_minutes,p95_additional_wait_minutes,mean_total_wait_minutes,critical_mean_additional_wait_minutes,high_risk_top_five_rate,starvation_count,completed_within_120_minutes,safety_weighted_delay
+normal,fcfs,FIFO / FCFS,First arrival is served first.,51.1,113.1,99.55,110.5,0.0,3,15,935.5
+normal,acuity_priority,Priority queue,Highest current five-level acuity is served first.,82.0,146.6,130.45,0.0,0.5556,11,11,690.5
+normal,sjf_like,SJF-like,Shortest synthetic service-time estimate is served first.,50.0,112.6,98.45,115.0,0.0,4,15,938.4
+normal,waiting_time_priority,Waiting-time priority,Longest current wait is served first.,51.1,113.1,99.55,110.5,0.0,3,15,935.5
+normal,acuity_plus_waiting,Acuity + waiting,Acuity and elapsed waiting time are combined.,65.1,146.0,113.55,32.0,0.2222,11,13,795.3
+normal,patienttriage_ai,PatientTriage.ai,Safety floors followed by context-dependent ranking and monitoring.,82.0,146.6,130.45,0.0,0.5556,11,11,690.5
+surge,fcfs,FIFO / FCFS,First arrival is served first.,180.5,356.8,263.88,359.5,0.0,60,17,1951.77
+surge,acuity_priority,Priority queue,Highest current five-level acuity is served first.,225.73,390.6,309.12,0.0,0.5556,51,11,1624.43
+surge,sjf_like,SJF-like,Shortest synthetic service-time estimate is served first.,161.6,356.0,244.98,365.0,0.0,49,22,2006.4
+surge,waiting_time_priority,Waiting-time priority,Longest current wait is served first.,180.5,356.8,263.88,359.5,0.0,60,17,1951.77
+surge,acuity_plus_waiting,Acuity + waiting,Acuity and elapsed waiting time are combined.,196.07,392.4,279.45,228.5,0.0,60,16,1846.3
+surge,patienttriage_ai,PatientTriage.ai,Safety floors followed by context-dependent ranking and monitoring.,225.73,390.6,309.12,0.0,0.5556,51,11,1624.43

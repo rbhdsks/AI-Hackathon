@@ -1,0 +1,39 @@
+services:
+  api:
+    build: .
+    environment:
+      PATIENT_TRIAGE_DATABASE_PATH: /app/data/patient_triage.db
+      PATIENT_TRIAGE_BOOTSTRAP_DEMO_DATA: "true"
+    ports:
+      - "8000:8000"
+    volumes:
+      - triage-data:/app/data
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  dashboard:
+    build: .
+    command:
+      - python
+      - -m
+      - streamlit
+      - run
+      - dashboard/streamlit_app.py
+      - --server.address=0.0.0.0
+    environment:
+      PATIENT_TRIAGE_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  triage-data:

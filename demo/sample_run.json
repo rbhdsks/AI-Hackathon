@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-08-25T14:52:12.255596+00:00",
+  "prototype_warning": "Synthetic demonstration only; not for clinical use.",
+  "normal": {
+    "metrics": {
+      "patient_count": 20,
+      "labelled_patient_count": 20,
+      "critical_missed": 0,
+      "under_triage_count": 0,
+      "over_triage_count": 4,
+      "high_risk_detection_rate": 1.0,
+      "low_confidence_count": 1,
+      "reassessment_alert_count": 18,
+      "explanation_coverage": 1.0,
+      "mean_wait_minutes": 48.45,
+      "model_status": "ready"
+    },
+    "top_five": [
+      {
+        "position": 1,
+        "patient_id": "SYN-001",
+        "acuity": 1,
+        "acuity_label": "critical",
+        "safety_floor": 1,
+        "cdm_probability": 0.14295368860757812,
+        "cdm_utility": 4.142939879792073,
+        "base_utility": 4.017888888888889,
+        "context_effect": 0.12505099090318392,
+        "confidence": "high",
+        "confidence_score": 1.0,
+        "wait_minutes": 8.0,
+        "state": "critical_escalation",
+        "reasons": [
+          "oxygen saturation is below the prototype red-flag threshold",
+          "recorded vital signs contribute to urgency",
+          "a high-risk symptom category is present",
+          "transparent patient-level urgency score: 4.587",
+          "current waiting-set context changed CDM utility by +0.125"
+        ],
+        "alerts": [
+          "critical safety floor: immediate clinical review",
+          "reassessment threshold has been reached"
+        ],
+        "missing_information": [],
+        "triggered_rules": [
+          "SAFE-001"
+        ],
+        "recommended_action": "Immediate clinician review required",
+        "is_stale": false,
+        "is_overridden": false,
+        "override_reason": null
+      },
+      {
+        "position": 2,
+        "patient_id": "SYN-003",
+        "acuity": 1,
+        "acuity_label": "critical",
+        "safety_floor": 1,
+        "cdm_probability": 0.07768988047036747,
+        "cdm_utility": 3.533144168291098,
+        "base_utility": 3.4105555555555553,
+        "context_effect": 0.1225886127355426,
+        "confidence": "high",
+        "confidence_score": 0.95,
+        "wait_minutes": 5.0,
+        "state": "critical_escalation",
+        "reasons": [
+          "patient is recorded as unresponsive",
+          "recorded vital signs contribute to urgency",
+          "a high-risk symptom category is present",
+          "transparent patient-level urgency score: 3.868",
+          "current waiting-set context changed CDM utility by +0.123",
+          "pain score is missing"
+        ],
+        "alerts": [
+          "critical safety floor: immediate clinical review",
+          "reassessment threshold has been reached"
+        ],
+        "missing_information": [],
+        "triggered_rules": [
+          "SAFE-003"
+        ],
+        "recommended_action": "Immediate clinician review required",
+        "is_stale": false,
+        "is_overridden": false,
+        "override_reason": null
+      },
+      {
+        "position": 3,
+        "patient_id": "SYN-004",
+        "acuity": 1,
+        "acuity_label": "critical",
+        "safety_floor": 1,
+        "cdm_probability": 0.07299459094791816,
+        "cdm_utility": 3.4708044996751135,
+        "base_utility": 3.3816666666666664,
+        "context_effect": 0.08913783300844706,
+        "confidence": "high",
+        "confidence_score": 1.0,
+        "wait_minutes": 6.0,
+        "state": "critical_escalation",
+        "reasons": [
+          "severe bleeding is recorded",
+          "recorded vital signs contribute to urgency",
+          "a high-risk symptom category is present",
+          "transparent patient-level urgency score: 3.840",
+          "current waiting-set context changed CDM utility by +0.089"
+        ],
+        "alerts": [
+          "critical safety floor: immediate clinical review",
+          "reassessment threshold has been reached"
+        ],
+        "missing_information": [],
+        "triggered_rules": [
+          "SAFE-005"
+        ],
+        "recommended_action": "Immediate clinician review required",
+        "is_stale": false,
+        "is_overridden": false,
+        "override_reason": null
+      },
+      {
+        "position": 4,
+        "patient_id": "SYN-002",
+        "acuity": 1,
+        "acuity_label": "critical",
+        "safety_floor": 1,
+        "cdm_probability": 0.044069802583819796,
+        "cdm_utility": 2.96619395711501,
+        "base_utility": 2.883888888888889,
+        "context_effect": 0.08230506822612087,
+        "confidence": "high",
+        "confidence_score": 1.0,
+        "wait_minutes": 12.0,
+        "state": "critical_escalation",
+        "reasons": [
+          "systolic blood pressure is below the prototype red-flag threshold",
+          "chest pain is accompanied by an abnormal recorded vital",
+          "a high-risk symptom category is present",
+          "transparent patient-level urgency score: 3.271",
+          "current waiting-set context changed CDM utility by +0.082"
+        ],
+        "alerts": [
+          "critical safety floor: immediate clinical review",
+          "reassessment threshold has been reached"
+        ],
+        "missing_information": [],
+        "triggered_rules": [
+          "SAFE-002",
+          "SAFE-007"
+        ],
+        "recommended_action": "Immediate clinician review required",
+        "is_stale": false,
+        "is_overridden": false,
+        "override_reason": null
+      },
+      {
+        "position": 5,
+        "patient_id": "SYN-019",
+        "acuity": 2,
+        "acuity_label": "emergent",
+        "safety_floor": 5,
+        "cdm_probability": 0.40728260767577407,
+        "cdm_utility": 5.189926470110461,
+        "base_utility": 4.870333333333333,
+        "context_effect": 0.3195931367771281,
+        "confidence": "high",
+        "confidence_score": 1.0,
+        "wait_minutes": 48.0,
+        "state": "deteriorating",
+        "reasons": [
+          "recorded vital signs contribute to urgency",
+          "a high-risk symptom category is present",
+          "recorded vitals have worsened since the previous observation",
+          "transparent patient-level urgency score: 5.634",
+          "current waiting-set context changed CDM utility by +0.320"
+        ],
+        "alerts": [
+          "recorded vital signs indicate deterioration",
+          "reassessment threshold has been reached"
+        ],
+        "missing_information": [],
+        "triggered_rules": [],
+        "recommended_action": "Reassess immediately and review the changed vital signs",
+        "is_stale": false,
+        "is_overridden": false,
+        "override_reason": null
+      }
+    ]
+  },
+  "deterioration": {
+    "patient_id": "SYN-015",
+    "new_position": 10,
+    "state": "deteriorating"
+  },
+  "override": {
+    "patient_id": "SYN-011",
+    "position": 5,
+    "audit_chain_valid": true
+  },
+  "surge": {
+    "metrics": {
+      "patient_count": 60,
+      "labelled_patient_count": 60,
+      "critical_missed": 0,
+      "under_triage_count": 3,
+      "over_triage_count": 37,
+      "high_risk_detection_rate": 1.0,
+      "low_confidence_count": 1,
+      "reassessment_alert_count": 56,
+      "explanation_coverage": 1.0,
+      "mean_wait_minutes": 83.38,
+      "model_status": "ready"
+    },
+    "mode": "surge",
+    "queue_pressure": 3.0
+  },
+  "model_failure": {
+    "status": "fallback",
+    "warnings": [
+      "CDM unavailable: rule-only fallback is active",
+      "All recommendations require manual review until the model recovers"
+    ],
+    "all_entries_stale": true
+  }
+}

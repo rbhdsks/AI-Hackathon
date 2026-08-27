@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-08-25T16:08:35.163282Z",
+  "benchmark_clock": "2026-08-25T12:00:00Z",
+  "points": [
+    {
+      "patient_count": 20,
+      "repetitions": 12,
+      "mean_latency_ms": 0.711,
+      "p95_latency_ms": 1.036,
+      "max_latency_ms": 1.074,
+      "throughput_patients_per_second": 28114.2
+    },
+    {
+      "patient_count": 60,
+      "repetitions": 12,
+      "mean_latency_ms": 1.58,
+      "p95_latency_ms": 1.803,
+      "max_latency_ms": 1.841,
+      "throughput_patients_per_second": 37982.8
+    },
+    {
+      "patient_count": 180,
+      "repetitions": 12,
+      "mean_latency_ms": 4.745,
+      "p95_latency_ms": 5.394,
+      "max_latency_ms": 5.643,
+      "throughput_patients_per_second": 37937.6
+    }
+  ],
+  "interpretation": "This benchmark isolates in-process ranking latency at increasing queue sizes so capacity decisions can be based on measured, reproducible data.",
+  "limitation": "Local synthetic microbenchmark only; it excludes network, persistence, authentication, concurrent users, and production observability overhead."
+}

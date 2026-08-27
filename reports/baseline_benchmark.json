@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-08-25T16:08:35.043432+00:00",
+  "benchmark_clock": "2026-08-25T12:00:00+00:00",
+  "profile_id": "district-ed-demo",
+  "scenarios": {
+    "normal": {
+      "patient_count": 20,
+      "treatment_teams": 4,
+      "horizon_minutes": 120,
+      "results": [
+        {
+          "strategy": "fcfs",
+          "display_name": "FIFO / FCFS",
+          "description": "First arrival is served first.",
+          "mean_additional_wait_minutes": 51.1,
+          "p95_additional_wait_minutes": 113.1,
+          "mean_total_wait_minutes": 99.55,
+          "critical_mean_additional_wait_minutes": 110.5,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 3,
+          "completed_within_120_minutes": 15,
+          "safety_weighted_delay": 935.5
+        },
+        {
+          "strategy": "acuity_priority",
+          "display_name": "Priority queue",
+          "description": "Highest current five-level acuity is served first.",
+          "mean_additional_wait_minutes": 82.0,
+          "p95_additional_wait_minutes": 146.6,
+          "mean_total_wait_minutes": 130.45,
+          "critical_mean_additional_wait_minutes": 0.0,
+          "high_risk_top_five_rate": 0.5556,
+          "starvation_count": 11,
+          "completed_within_120_minutes": 11,
+          "safety_weighted_delay": 690.5
+        },
+        {
+          "strategy": "sjf_like",
+          "display_name": "SJF-like",
+          "description": "Shortest synthetic service-time estimate is served first.",
+          "mean_additional_wait_minutes": 50.0,
+          "p95_additional_wait_minutes": 112.6,
+          "mean_total_wait_minutes": 98.45,
+          "critical_mean_additional_wait_minutes": 115.0,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 4,
+          "completed_within_120_minutes": 15,
+          "safety_weighted_delay": 938.4
+        },
+        {
+          "strategy": "waiting_time_priority",
+          "display_name": "Waiting-time priority",
+          "description": "Longest current wait is served first.",
+          "mean_additional_wait_minutes": 51.1,
+          "p95_additional_wait_minutes": 113.1,
+          "mean_total_wait_minutes": 99.55,
+          "critical_mean_additional_wait_minutes": 110.5,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 3,
+          "completed_within_120_minutes": 15,
+          "safety_weighted_delay": 935.5
+        },
+        {
+          "strategy": "acuity_plus_waiting",
+          "display_name": "Acuity + waiting",
+          "description": "Acuity and elapsed waiting time are combined.",
+          "mean_additional_wait_minutes": 65.1,
+          "p95_additional_wait_minutes": 146.0,
+          "mean_total_wait_minutes": 113.55,
+          "critical_mean_additional_wait_minutes": 32.0,
+          "high_risk_top_five_rate": 0.2222,
+          "starvation_count": 11,
+          "completed_within_120_minutes": 13,
+          "safety_weighted_delay": 795.3
+        },
+        {
+          "strategy": "patienttriage_ai",
+          "display_name": "PatientTriage.ai",
+          "description": "Safety floors followed by context-dependent ranking and monitoring.",
+          "mean_additional_wait_minutes": 82.0,
+          "p95_additional_wait_minutes": 146.6,
+          "mean_total_wait_minutes": 130.45,
+          "critical_mean_additional_wait_minutes": 0.0,
+          "high_risk_top_five_rate": 0.5556,
+          "starvation_count": 11,
+          "completed_within_120_minutes": 11,
+          "safety_weighted_delay": 690.5
+        }
+      ],
+      "interpretation": "No single queue policy should be expected to win every metric: SJF-like policies favour throughput, waiting-time policies favour age of wait, and safety-constrained policies favour urgent cases.",
+      "limitation": "Synthetic non-preemptive queue simulation with illustrative service times; it does not establish clinical effectiveness or hospital savings."
+    },
+    "surge": {
+      "patient_count": 60,
+      "treatment_teams": 4,
+      "horizon_minutes": 120,
+      "results": [
+        {
+          "strategy": "fcfs",
+          "display_name": "FIFO / FCFS",
+          "description": "First arrival is served first.",
+          "mean_additional_wait_minutes": 180.5,
+          "p95_additional_wait_minutes": 356.8,
+          "mean_total_wait_minutes": 263.88,
+          "critical_mean_additional_wait_minutes": 359.5,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 60,
+          "completed_within_120_minutes": 17,
+          "safety_weighted_delay": 1951.77
+        },
+        {
+          "strategy": "acuity_priority",
+          "display_name": "Priority queue",
+          "description": "Highest current five-level acuity is served first.",
+          "mean_additional_wait_minutes": 225.73,
+          "p95_additional_wait_minutes": 390.6,
+          "mean_total_wait_minutes": 309.12,
+          "critical_mean_additional_wait_minutes": 0.0,
+          "high_risk_top_five_rate": 0.5556,
+          "starvation_count": 51,
+          "completed_within_120_minutes": 11,
+          "safety_weighted_delay": 1624.43
+        },
+        {
+          "strategy": "sjf_like",
+          "display_name": "SJF-like",
+          "description": "Shortest synthetic service-time estimate is served first.",
+          "mean_additional_wait_minutes": 161.6,
+          "p95_additional_wait_minutes": 356.0,
+          "mean_total_wait_minutes": 244.98,
+          "critical_mean_additional_wait_minutes": 365.0,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 49,
+          "completed_within_120_minutes": 22,
+          "safety_weighted_delay": 2006.4
+        },
+        {
+          "strategy": "waiting_time_priority",
+          "display_name": "Waiting-time priority",
+          "description": "Longest current wait is served first.",
+          "mean_additional_wait_minutes": 180.5,
+          "p95_additional_wait_minutes": 356.8,
+          "mean_total_wait_minutes": 263.88,
+          "critical_mean_additional_wait_minutes": 359.5,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 60,
+          "completed_within_120_minutes": 17,
+          "safety_weighted_delay": 1951.77
+        },
+        {
+          "strategy": "acuity_plus_waiting",
+          "display_name": "Acuity + waiting",
+          "description": "Acuity and elapsed waiting time are combined.",
+          "mean_additional_wait_minutes": 196.07,
+          "p95_additional_wait_minutes": 392.4,
+          "mean_total_wait_minutes": 279.45,
+          "critical_mean_additional_wait_minutes": 228.5,
+          "high_risk_top_five_rate": 0.0,
+          "starvation_count": 60,
+          "completed_within_120_minutes": 16,
+          "safety_weighted_delay": 1846.3
+        },
+        {
+          "strategy": "patienttriage_ai",
+          "display_name": "PatientTriage.ai",
+          "description": "Safety floors followed by context-dependent ranking and monitoring.",
+          "mean_additional_wait_minutes": 225.73,
+          "p95_additional_wait_minutes": 390.6,
+          "mean_total_wait_minutes": 309.12,
+          "critical_mean_additional_wait_minutes": 0.0,
+          "high_risk_top_five_rate": 0.5556,
+          "starvation_count": 51,
+          "completed_within_120_minutes": 11,
+          "safety_weighted_delay": 1624.43
+        }
+      ],
+      "interpretation": "No single queue policy should be expected to win every metric: SJF-like policies favour throughput, waiting-time policies favour age of wait, and safety-constrained policies favour urgent cases.",
+      "limitation": "Synthetic non-preemptive queue simulation with illustrative service times; it does not establish clinical effectiveness or hospital savings."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "currency_assumption": {
+    "base": "USD",
+    "reporting": "INR",
+    "usd_to_inr": 96.0,
+    "as_of": "2026-08-25",
+    "notice": "Planning conversion only. Refresh the reference rate and cloud calculator before procurement."
+  },
+  "monthly_cloud_ranges_usd": [
+    {
+      "stage": "hackathon_demo",
+      "low": 0,
+      "high": 25,
+      "scope": "Developer laptop or one small disposable demo service; no production controls."
+    },
+    {
+      "stage": "single_hospital_shadow_pilot",
+      "low": 180,
+      "high": 650,
+      "scope": "Small managed compute, database, backups, logs, secrets, and test environment."
+    },
+    {
+      "stage": "single_hospital_production_ha",
+      "low": 900,
+      "high": 2800,
+      "scope": "Multi-zone services, managed database, observability, security controls, and recovery capacity."
+    },
+    {
+      "stage": "regional_10_hospital",
+      "low": 4000,
+      "high": 15000,
+      "scope": "Ten isolated hospital tenants with shared platform services and higher support/telemetry volume."
+    }
+  ],
+  "pilot_delivery_ranges_inr_lakh": [
+    {"workstream": "Clinical safety and governance", "low": 5, "high": 12},
+    {"workstream": "Product and human-factors design", "low": 3, "high": 6},
+    {"workstream": "Backend, identity, and integration", "low": 8, "high": 16},
+    {"workstream": "Security and compliance engineering", "low": 4, "high": 10},
+    {"workstream": "Verification and validation", "low": 4, "high": 8},
+    {"workstream": "Training and change management", "low": 2, "high": 5},
+    {"workstream": "Contingency", "low": 2, "high": 5}
+  ],
+  "notice": "Illustrative order-of-magnitude ranges, not a quote, budget, ROI claim, or purchasing recommendation. Taxes, hospital devices, EHR interface fees, data migration, legal advice, and 24x7 staffing are excluded."
+}

@@ -1,0 +1,38 @@
+{
+  "profile_id": "district-ed-demo",
+  "display_name": "District General Hospital - Emergency Department",
+  "hospital_level": "district",
+  "assumption_notice": "Illustrative hackathon simulation profile. Replace every capacity and staffing value with locally approved hospital data before any pilot.",
+  "catchment_population": 500000,
+  "total_hospital_beds": 200,
+  "ed_beds": 18,
+  "treatment_teams": 4,
+  "normal_shift_arrivals": 20,
+  "surge_shift_arrivals": 60,
+  "shift": {
+    "label": "Day demonstration shift",
+    "start_time": "08:00:00",
+    "end_time": "20:00:00"
+  },
+  "zones": [
+    {"name": "Resuscitation", "bed_count": 3},
+    {"name": "Acute care", "bed_count": 9},
+    {"name": "Observation", "bed_count": 6}
+  ],
+  "staffing": {
+    "emergency_physicians": 3,
+    "resident_doctors": 4,
+    "triage_nurses": 2,
+    "staff_nurses": 12,
+    "pharmacists": 1,
+    "blood_bank_technicians": 1,
+    "administrators": 1
+  },
+  "model_components": [
+    "explicit_safety_rules",
+    "transparent_urgency_model",
+    "feature_context_dependent_model",
+    "data_quality_confidence",
+    "waiting_room_monitoring"
+  ]
+}

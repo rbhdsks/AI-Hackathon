@@ -1,0 +1,40 @@
+{
+  "prototype_notice": "Header-based roles demonstrate authorization boundaries only. Production requires hospital SSO/OIDC, identity proofing, least privilege, session controls, and access reviews.",
+  "roles": [
+    {
+      "role": "nurse",
+      "display_name": "Triage nurse",
+      "description": "Front-door assessment, observations, bed view, and reassessment workflow.",
+      "read_permissions": ["facility.read", "patient.read", "queue.read", "bed.read"],
+      "write_permissions": ["intake.write", "vitals.write", "bed.write"]
+    },
+    {
+      "role": "doctor",
+      "display_name": "Emergency doctor",
+      "description": "Clinical queue review, overrides, dispositions, and support-readiness requests.",
+      "read_permissions": ["facility.read", "patient.read", "queue.read", "bed.read", "pharmacy.read", "blood_bank.read", "audit.read"],
+      "write_permissions": ["intake.write", "vitals.write", "override.write", "disposition.write"]
+    },
+    {
+      "role": "pharmacy",
+      "display_name": "Emergency pharmacy",
+      "description": "Minimum necessary medication-readiness signals linked to the current queue.",
+      "read_permissions": ["facility.read", "pharmacy.read"],
+      "write_permissions": ["pharmacy.acknowledge"]
+    },
+    {
+      "role": "administration",
+      "display_name": "Hospital administration",
+      "description": "De-identified capacity, staffing, performance, and simulation controls.",
+      "read_permissions": ["facility.read", "bed.read", "analytics.read", "audit.read"],
+      "write_permissions": ["scenario.write"]
+    },
+    {
+      "role": "blood_bank",
+      "display_name": "Blood bank",
+      "description": "Minimum necessary transfusion-readiness signals linked to emergency cases.",
+      "read_permissions": ["facility.read", "blood_bank.read"],
+      "write_permissions": ["blood_bank.acknowledge"]
+    }
+  ]
+}
