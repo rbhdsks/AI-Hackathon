@@ -74,6 +74,13 @@ class APIClient:
     def deteriorate(self, patient_id: str) -> dict[str, Any]:
         return self._request("POST", f"/v1/simulations/deteriorate/{patient_id}")
 
+    def discharge(self, patient_id: str) -> dict[str, Any]:
+        return self._request(
+            "PATCH",
+            f"/v1/patients/{patient_id}/status",
+            params={"patient_status": "discharged"},
+        )
+
     def override(
         self,
         *,
