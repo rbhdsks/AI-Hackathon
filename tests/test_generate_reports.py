@@ -12,11 +12,15 @@ def test_generate_reports_creates_evidence_files(
     tmp_path: Path,
     monkeypatch,
 ) -> None:
-    """The report command should generate all four evidence files."""
+    """The report command should create all expected evidence files."""
 
+    # generate_reports.py expects to run from the project root because
+    # the hospital configuration is stored under configs/.
     project_root = Path(__file__).resolve().parents[1]
     monkeypatch.chdir(project_root)
 
+    # Simulate the command:
+    # patient-triage-reports --output <temporary-directory>
     monkeypatch.setattr(
         sys,
         "argv",
@@ -36,19 +40,21 @@ def test_generate_reports_creates_evidence_files(
         "scalability_benchmark.json",
     }
 
-    assert {
+    generated_files = {
         path.name
         for path in tmp_path.iterdir()
         if path.is_file()
-    } == expected_files
+    }
 
+    assert generated_files == expected_files
+
+    # Confirm that two scenarios and six strategies produced 12 rows.
     with (tmp_path / "baseline_benchmark.csv").open(
         newline="",
         encoding="utf-8",
     ) as handle:
         baseline_rows = list(csv.DictReader(handle))
 
-    # Two scenarios multiplied by six queue strategies.
     assert len(baseline_rows) == 12
 
     assert {
@@ -68,7 +74,8 @@ def test_generate_reports_creates_evidence_files(
         "patienttriage_ai",
     }
 
-    scalability = json.loads(
+    # Confirm the expected scalability queue sizes.
+    scalability_report = json.loads(
         (
             tmp_path / "scalability_benchmark.json"
         ).read_text(encoding="utf-8")
@@ -76,5 +83,5 @@ def test_generate_reports_creates_evidence_files(
 
     assert [
         point["patient_count"]
-        for point in scalability["points"]
+        for point in scalability_report["points"]
     ] == [20, 60, 180]
