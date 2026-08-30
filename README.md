@@ -376,4 +376,4 @@ patient-triage-ai-cdm/
 - No live device, EHR, lab, pharmacy, blood-bank, or ADT integration is included.
 - Passing software tests does not establish clinical safety, efficacy, fairness, or regulatory compliance.
 
-License: MIT.
+
