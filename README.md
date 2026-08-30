@@ -22,25 +22,12 @@ PatientTriage.ai is a branded, safety-first emergency-department coordination pr
 - Low-level design, business proposal, SWOT, techno-economics, pitch deck, PDF report, and prototype video.
 - Expanded software verification with **159 passing tests and 96.19% coverage** at the implementation checkpoint.
 
-## Why the product is hackathon-worthy
-
-Static triage assigns a category once. PatientTriage.ai demonstrates a living operational queue:
-
-1. A patient arrives and is validated.
-2. Red-flag rules establish an acuity floor.
-3. Patient-level urgency and CDM context determine order inside the safe group.
-4. Confidence, missing information, wait, and deterioration remain visible.
-5. A new observation, arrival, surge, or override recomputes the queue.
-6. Nurses and doctors switch between the 18-bed and patient views.
-7. Pharmacy and blood-bank users see only necessary readiness signals.
-8. Administration sees de-identified capacity and evaluation evidence.
-9. Model failure produces a marked rule-only fallback instead of a silent stale answer.
 
 ## Phase 1 to Phase 2
 
 | Area | Phase 1 | Version 0.3.0 |
 |---|---|---|
-| Relative model | Bradley-Terry-Luce concept | Feature-conditioned CDM; BTL removed |
+| Relative model | Bradley-Terry-Luce concept | Feature-conditioned CDM; Bradley terry model removed |
 | Safety | Proposed constraints | Executable floors that context cannot downgrade |
 | Queue | Static prioritization | Dynamic re-ranking and monitoring |
 | Capacity | Not represented | Configurable 18-bed ED projection |
