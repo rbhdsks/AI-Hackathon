@@ -6,11 +6,6 @@
 
 PatientTriage.ai is a branded, safety-first emergency-department coordination prototype for synthetic scenarios. It combines explicit safety floors, a transparent urgency model, a feature-conditioned Context-Dependent Model (CDM), uncertainty, continuous waiting-room monitoring, an 18-bed operational projection, role-based dashboards, clinician override, and a tamper-evident audit chain.
 
-> [!CAUTION]
-> Synthetic hackathon prototype only. It is not clinically validated, is not a diagnosis or treatment system, is not a regulatory-approved medical device, and must never be used for patient care. A licensed clinician remains the decision-maker.
-
-> [!IMPORTANT]
-> This is **not an ERP**. It does not perform billing, procurement, inventory, dispensing, cross-match management, payroll, authoritative admission/discharge/transfer, or bed-master functions. It coordinates emergency review order and minimum-necessary readiness signals.
 
 ## What is new in version 0.3.0
 
@@ -64,7 +59,7 @@ flowchart TD
     TRIAGE --> DATA["Synthetic patients + audit"]
 ```
 
-The ranking order is lexicographic:
+The ranking order in the app is lexicographic:
 
 1. Final acuity after hard safety floors.
 2. CDM utility within the same acuity.
