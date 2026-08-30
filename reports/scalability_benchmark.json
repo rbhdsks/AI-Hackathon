@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-25T16:08:35.163282Z",
+  "generated_at": "2026-08-30T17:23:05.616318Z",
   "benchmark_clock": "2026-08-25T12:00:00Z",
   "points": [
     {
       "patient_count": 20,
       "repetitions": 12,
-      "mean_latency_ms": 0.711,
-      "p95_latency_ms": 1.036,
-      "max_latency_ms": 1.074,
-      "throughput_patients_per_second": 28114.2
+      "mean_latency_ms": 0.45,
+      "p95_latency_ms": 0.477,
+      "max_latency_ms": 0.486,
+      "throughput_patients_per_second": 44400.2
     },
     {
       "patient_count": 60,
       "repetitions": 12,
-      "mean_latency_ms": 1.58,
-      "p95_latency_ms": 1.803,
-      "max_latency_ms": 1.841,
-      "throughput_patients_per_second": 37982.8
+      "mean_latency_ms": 1.233,
+      "p95_latency_ms": 1.273,
+      "max_latency_ms": 1.292,
+      "throughput_patients_per_second": 48671.3
     },
     {
       "patient_count": 180,
       "repetitions": 12,
-      "mean_latency_ms": 4.745,
-      "p95_latency_ms": 5.394,
-      "max_latency_ms": 5.643,
-      "throughput_patients_per_second": 37937.6
+      "mean_latency_ms": 3.729,
+      "p95_latency_ms": 3.835,
+      "max_latency_ms": 3.838,
+      "throughput_patients_per_second": 48276.0
     }
   ],
   "interpretation": "This benchmark isolates in-process ranking latency at increasing queue sizes so capacity decisions can be based on measured, reproducible data.",
