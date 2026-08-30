@@ -44,17 +44,38 @@ def _outside_range(value: float | None, low: float, high: float, scale: float) -
 def _age_adjusted_ranges(
     patient: Patient,
 ) -> tuple[tuple[float, float], tuple[float, float], float]:
+    """
+    Return age-adjusted reference values for the patient.
+
+    Returns:
+        - Normal heart-rate range in beats per minute
+        - Normal respiratory-rate range in breaths per minute
+        - Minimum expected systolic blood pressure in mmHg
+
+    These are simplified prototype values and must be validated against
+    the hospital's approved clinical protocol before real-world use.
+    """
+
     age = patient.age_years
+
+    # Infant: younger than 1 year
     if age < 1:
         return (100, 160), (30, 60), 70
+
+    # Young child: 1 to 4 years
     if age < 5:
         return (80, 140), (20, 40), 75
+
+    # Child: 5 to 11 years
     if age < 12:
         return (70, 120), (18, 30), 80
+
+    # Adolescent: 12 to 17 years
     if age < 18:
         return (60, 110), (12, 25), 90
-    return (60, 100), (12, 20), 90
 
+    # Adult: 18 years or older
+    return (60, 100), (12, 20), 90
 
 def physiology_risk(patient: Patient, vitals: VitalSigns | None = None) -> float:
     observed = vitals or patient.vitals
